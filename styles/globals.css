@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+
+.topBar {
+  background: black;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: white;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 250px;
+  background: white;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #777;
+}
+
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper img {
+  width: 100%;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: black;
+  color: white;
+  padding: 4px 8px;
+  font-size: 10px;
+}
+
+.badge.out {
+  background: gray;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.footer button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
